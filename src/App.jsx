@@ -1,11 +1,6 @@
-import { AgeCounter } from "./AgeCounter";
-
+import { DisplayDifficulty } from "./components/DisplayDifficulty/DisplayDifficulty";
 export function App() {
-  return (
-    <>
-      <AgeCounter />
-    </>
-  );
+  return <div>{/*<DisplayDifficulty difficulty="Low" />*/}</div>;
 }
 
 /*
